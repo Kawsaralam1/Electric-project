@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* navbar css starts here  */
 .nav-content{
@@ -29,3 +30,47 @@
 }
 
 /* navbar css ends here  */
+
+/* banner css style starts here  */
+.banner{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: rgba(242 242 242);
+     border-radius: 10px;
+}
+.banner-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding:10px;
+   
+}
+.banner-childs{
+    width:47%;
+    position: relative;
+}
+.banner-childs img{
+    width:100%;
+    border-radius: 10px;
+  
+}
+.banner-btn{
+    border: 2px solid gray;
+    padding:10px;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.fifty-off{
+    width:max-content;
+    background-color: rgba(0, 0, 0, 0.582);
+    color:white;
+    font-size: 25px;
+    padding:20px 60px;
+    border-radius: 10px;
+    position: absolute;
+    top:40%;
+    left:20%;
+}
+/* banner css style ends here  */

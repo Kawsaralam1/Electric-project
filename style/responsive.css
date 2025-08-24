@@ -17,4 +17,11 @@
     .nav-main{
         flex-direction: row;
     }
+    .banner-content{
+   flex-direction: column;
+}
+.banner-childs{
+    width:100%;
+}
+
 }
