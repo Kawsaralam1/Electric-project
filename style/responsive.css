@@ -9,6 +9,12 @@
     .popular-main{
     grid-template-columns: repeat(2,1fr);
 }
+.natural-mark{
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
 }
 @media screen and (max-width:500px) {
     .nav-humburger{
@@ -29,5 +35,7 @@
 .popular-main{
     grid-template-columns: repeat(1,1fr);
 }
-
+.natural-child-1{
+    grid-template-columns: repeat(1,1fr); 
+}
 }
